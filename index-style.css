@@ -32,6 +32,7 @@ canvas {
     color: white;
     text-align: center;
     cursor: default;
-    max-width: 500px;
     user-select: none;
+    width: 100%;
+    padding: 0 40px;
 }
