@@ -1,0 +1,15 @@
+#index-container, #enter-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+#index-container {
+    color: white;
+    text-align: center;
+    cursor: default;
+    max-width: 500px;
+    user-select: none;
+}
