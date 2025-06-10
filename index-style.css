@@ -28,6 +28,10 @@ canvas {
     transition: 1s;
 }
 
+#enter-btn {
+    font-size: 60px !important;
+}
+
 #index-container {
     color: white;
     text-align: center;
