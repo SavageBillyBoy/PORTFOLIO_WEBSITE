@@ -1,18 +1,3 @@
-body {
-    overflow: hidden;
-    overscroll-behavior-y: contain; /* Prevents pull-to-refresh on most browsers */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
-    -webkit-user-select: none; /* Disable text selection */
-    -webkit-touch-callout: none; /* Disable context menu on long press */
-}
-
-html {
-    overflow: hidden; /* Prevent scrolling on the entire HTML document */
-    height: 100vh; /* Ensure html takes full viewport height */
-    width: 100vw; /* Ensure html takes full viewport width */
-    overscroll-behavior-y: contain; /* Another layer to prevent pull-to-refresh */
-}
-
 canvas {
     touch-action: none;
     -ms-touch-action: none; /* For IE/Edge */
