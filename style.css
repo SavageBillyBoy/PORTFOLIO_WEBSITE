@@ -5,6 +5,8 @@ body {
     -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
     -webkit-user-select: none; /* Disable text selection */
     -webkit-touch-callout: none; /* Disable context menu on long press */
+    touch-action: none;
+    -ms-touch-action: none; /* For IE/Edge */
 }
 
 html {
