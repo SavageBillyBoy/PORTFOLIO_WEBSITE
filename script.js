@@ -11,7 +11,7 @@ let textVisible = true;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
-  background(0);
+  background(255);
 }
 
 function draw() {
@@ -41,7 +41,7 @@ function draw() {
       // coordinates while pressed...
       for (let i = 0; i < symmetry; i++) {
         rotate(angle);
-        stroke(255);
+        stroke('blue');
         strokeWeight(3);
         line(lineStartX, lineStartY, lineEndX, lineEndY);
 
@@ -57,5 +57,5 @@ function draw() {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-  background(0);
+  background(255);
 }
