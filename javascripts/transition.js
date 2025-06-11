@@ -1,8 +1,12 @@
 const duration = 1;
 
-setTimeout(() => {
-    document.getElementById("transition-cover").classList.add("faded");
-}, 250)
+window.onload = function() {
+    setTimeout(() => {
+        while(!document.getElementById("transition-cover")) {
+        }
+        document.getElementById("transition-cover").classList.add("faded");
+    }, 250)
+};
 
 
 function startfadeOut(link) {
