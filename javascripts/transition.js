@@ -1,5 +1,3 @@
-location.reload();
-
 window.addEventListener('pageshow', function(event) {
         if (event.persisted) {
             setTimeout(() => {
