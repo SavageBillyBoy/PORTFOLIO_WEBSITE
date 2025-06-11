@@ -1,4 +1,4 @@
-const duration = 1;
+location.reload();
 
 window.addEventListener('pageshow', function(event) {
         if (event.persisted) {
