@@ -2,9 +2,8 @@ const duration = 1;
 
 window.onload = function() {
     setTimeout(() => {
-        while(!document.getElementById("transition-cover")) {
-        }
         document.getElementById("transition-cover").classList.add("faded");
+        console.log(document.getElementById("transition-cover").classList);
     }, 250)
 };
 
