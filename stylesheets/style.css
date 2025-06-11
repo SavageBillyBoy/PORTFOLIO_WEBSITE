@@ -93,48 +93,63 @@ body--fixed {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 
+#col-container {
+    margin: 10px;
+}
+
 .square {
     aspect-ratio: 1 / 1;
     transition: 0.05s;
     position: relative;
-    cursor: pointer;
-    outline: white 20px solid;
 }
 
-#col-container {
-    border: white 20px solid;
-    box-sizing: border-box;
+.index-square {
+    cursor: pointer;
 }
 
 .project {
     position: relative;
 }
 
+.project-img-container {
+   position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+}
+
 .project-info {
     position: absolute;
-    bottom: 16px;
-    left: 16px;
+    bottom: 20px;
+    left: 20px;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
-.project-title, .project-date {
+.project-title {
     background: black;
     color: white;
     padding: 8px 10px;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .project-date {
-    font-size: small;
+    background: black;
+    color: white;
+    font-size: 10px;
     padding: 4px 5px;
+    margin: 0;
 }
 
-#p1 {
-    background-image: url("../images/arch-1.png");
-    background-size: cover;
+.project-small-info {
+    background: white;
+    color: black;
+    font-size: 10px;
+    padding: 4px 5px;
+    margin: 0;
 }
 
 .title {
@@ -150,4 +165,10 @@ body--fixed {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* FONTS */
+
+h1 {
+    font-family: "Rubik", sans-serif;
 }
