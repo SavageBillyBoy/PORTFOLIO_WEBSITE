@@ -8,10 +8,7 @@ window.onload = function() {
 };
 
 window.addEventListener('load', function () {
-  setTimeout(() => {
-        document.getElementById("transition-cover").classList.add("faded");
-        console.log(document.getElementById("transition-cover").classList);
-    }, 250)
+  alert("It's loaded!")
 })
 
 
