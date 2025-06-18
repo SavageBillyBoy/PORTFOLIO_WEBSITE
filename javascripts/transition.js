@@ -20,5 +20,5 @@ function startfadeOut(link) {
     document.getElementById("transition-cover").classList.remove("faded");
     setTimeout(() => {
         window.location.href = link;
-    }, 1000)
+    }, 500)
 }
