@@ -157,3 +157,7 @@ body--fixed {
 h1 {
     font-family: "Rubik", sans-serif;
 }
+
+.not-opt {
+    outline: 2px solid red;
+}
