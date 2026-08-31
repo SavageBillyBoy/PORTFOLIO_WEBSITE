@@ -11,7 +11,11 @@ body--fixed {
     right: 0;
     z-index: 1;
     padding: 20px;
+    background: rgba(var(--bs-light-rgb));
+    /*background: #2A7B9B;
+    background: linear-gradient(0deg,rgba(var(--bs-light-rgb), 0) 0%, rgba(var(--bs-light-rgb)) 100%);  */
 }
+
 
 .top-menu a {
     background: black;
